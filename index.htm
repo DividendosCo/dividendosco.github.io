@@ -28,16 +28,23 @@
   </head>
   <body>
 
-  <main class="flex-shrink-0"> 
+
     <div class="container m-4">
-      <img src="socialmediabig.jpg" alt="Logo" width="100%" class="d-inline-block align-text-top">
+
+    <picture>
+        <source media="(min-width: 900px)" srcset="logoh.svg" width="100%">
+        <source media="(min-width: 610px)" srcset="logov.svg">
+        <img src="logo.svg" alt="Logo" width="300px" class="d-inline-block align-text-top">
+    </picture>
+
+      <!-- img src="socialmediabig.jpg" alt="Logo" width="100%" class="d-inline-block align-text-top"-->
     </div> <!-- container -->
-  </main> <!-- main -->
+
 
   <!-- footer --> 
-  <footer class="footer py-2 bg-dark-subtle ">
-    <div class="container">
-      <span class="text-body-secondary text-center mt-3 mb-5">Contato: info@dividendos.co </span>
+  <footer class="footer m-4 ">
+    <div class="container text-center">
+      <span class="text-body-secondary">Contato: info@dividendos.co </span>
       <div>&nbsp;</div>
     </div>
   </footer>
